@@ -6,7 +6,7 @@
 #    By: dsindres <dsindres@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/09 16:17:47 by dsindres          #+#    #+#              #
-#    Updated: 2025/09/09 16:27:36 by dsindres         ###   ########.fr        #
+#    Updated: 2025/09/10 09:19:24 by dsindres         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -123,7 +123,6 @@ def main() -> None:
     # load
     pixels = load_image(path)
     if pixels is None:
-        # un message d'erreur a déjà été affiché dans load_image
         sys.exit(1)
 
     # Affiche le contenu entier des pixels (conforme au sujet : gros dump)
